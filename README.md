@@ -1,0 +1,1 @@
+Create a virtual keyboard on a free live server as a front end, with which I can enter upper and lower case Greek letters, mathematical symbols such as the nabla operator and letters with upper and lower script. The input should be transferred to latex code and output as a text file.
