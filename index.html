@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual LaTeX Keyboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Virtual LaTeX Keyboard</h1>
+    <div id="keyboard">
+        <button onclick="addToLatex('\\alpha')">α</button>
+        <button onclick="addToLatex('\\beta')">β</button>
+        <button onclick="addToLatex('\\gamma')">γ</button>
+        <button onclick="addToLatex('\\nabla')">∇</button>
+        <button onclick="addToLatex('^{}')">Superscript</button>
+        <button onclick="addToLatex('_{}')">Subscript</button>
+        <!-- Add more buttons for different symbols as needed -->
+    </div>
+    <div id="preview">
+        <h3>LaTeX Code:</h3>
+        <textarea id="latexOutput" readonly></textarea>
+    </div>
+    <button onclick="downloadLatex()">Download LaTeX</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
