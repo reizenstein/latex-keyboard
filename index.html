@@ -119,7 +119,6 @@
 
         <!-- Math Operators and Symbols -->
         <button onclick="addToLatex('\\int')">∫</button>
-		<button onclick="addToLatex('\\nabla')">∇</button>
         <button onclick="addToLatex('+')">+</button>
         <button onclick="addToLatex('-')">−</button>
         <button onclick="addToLatex('*')">*</button>
@@ -128,8 +127,14 @@
         <button onclick="addToLatex(')')">)</button>
         <button onclick="addToLatex('.')">.</button>
         <button onclick="addToLatex(',')">,</button>
-		<button onclick="addToLatex('^{}')">Superscript</button>
-        <button onclick="addToLatex('_{}')">Subscript</button>
+
+        <!-- Superscript and Subscript Buttons -->
+        <button onclick="addToLatex('^{ }')">Superscript (^)</button>
+        <button onclick="addToLatex('_{ }')">Subscript (_)</button>
+
+        <!-- Curly braces for grouping -->
+        <button onclick="addToLatex('{')">{</button>
+        <button onclick="addToLatex('}')">}</button>
     </div>
 
     <div id="preview">
